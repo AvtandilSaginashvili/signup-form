@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sign Up</title>
+</head>
+<body >
+    
+    <div class="maindiv">
+
+        <h5>Create An Account</h5>
+        <p class="p1">Create an account to enjoy all the services<br>
+             without any ads for free!
+        </p>
+
+        <form>
+
+            
+            <input class="nameinp" placeholder="Name" type="text" name="name" id="nameinput">
+            <p class="woops" id="woop"></p>
+
+            <input class="emailinp" placeholder="Email Adress" type="email" name="email" id="emailinput">
+            <p class="woops" id="woop2"></p>
+
+            <input class="passinp" placeholder="password" type="password" name="password" id="passwordinput">
+            <p class="woops" id="woop3"></p>
+
+            <div style="display: flex; justify-content: center;">
+                <button onclick="create()" type="button">Create Account</button>
+            </div>
+
+            <p class="p2">Already Have An Account? <a href="#">Sign In</a></p>
+
+        </form>
+        
+
+    </div>
+
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
